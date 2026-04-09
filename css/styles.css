@@ -1,0 +1,168 @@
+
+* {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+title, head {
+    display: none;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    width: 97%;
+    height: auto;
+    margin: 0 1.5%;
+    max-width: 970px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Proza Libre", sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+h1, h2 {
+    color:rgb(53, 51, 51);
+}
+
+header h1 {
+    margin-right: auto;
+    margin-left: 30px;
+    font-family: "Proza Libre", sans-serif;
+    font-size: 2em;
+}
+
+header nav {
+    margin-left: auto;
+    margin-right: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(70, 70, 70);
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+header nav a {
+    margin-right: 20px;
+    font-weight: inherit;
+}
+
+#last-nav-option {
+    margin-right: 30px;
+}
+
+.about-me-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;   
+}
+
+.about-me-sec h2 {
+    margin-bottom: 20px;
+}
+
+section h2 {    
+    margin-left: 30px;
+    font-family: "Proza Libre", sans-serif;
+}
+
+.about-me-para-cont {
+    margin-left: 30px;
+    width: 50%;
+    height: auto;
+
+}
+
+.about-me-para-cont p {
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 23px;
+    font-weight: 400;
+    color: #323232;
+}
+
+#about-me-para-1 {
+    margin-bottom: 20px;
+}
+
+#about-me-para-2 {
+    margin-bottom: 20px;
+}
+
+.projects-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.projects-sec h2 {
+    margin-bottom: 20px;
+}
+/*
+.projects-sec h3 {
+    margin-left: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #363636;
+}
+*/
+
+
+.projects-sec {
+    margin-bottom: 25px;
+}
+
+.projects-sec h3 {
+    position: relative;
+    padding-left: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #363636;
+}
+
+.projects-sec h3::before {
+    content: url('./Images/right-arrow.svg');
+    left: 0;
+    top: 50%;
+    margin-right: 12px;
+}
+
+.skills-sec h2 {
+    width: 100%;
+}
+
+#first-skills-img {
+    margin-left: 30px;
+}
+
+.skills-img {
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
